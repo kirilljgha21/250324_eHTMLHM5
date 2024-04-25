@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+body{
+    padding: 8px;
+}
+
+.tab{
+    text-align: center;
+    width: 20%;
+    border: 1px solid rgb(248, 3, 3);
+    box-shadow: 0 0 15px 5px rgba(206, 53, 53, 0.776);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px auto;
+}
+
+.link1{
+    color: blue;
+    line-height: 40px;
+}
+
+.link2{
+    color: red;
+    text-decoration: underline;
+    line-height: 40px;
+    
+}
+
+.link3{
+    line-height: 40px;
+}
+
+.link1:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.link2:hover{
+    color: blue;
+    text-decoration: line-through;
+}
+
+.link3:hover{
+    color: red;
+    text-decoration: overline;
+}

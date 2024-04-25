@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+body{
+    padding: 8px;
+}
+
+.main{
+    width: 70%;
+    border: 1px solid blue;
+    box-shadow: 0 0 15px 5px rgba(37, 37, 164, 0.776);
+    border-radius: 20px;
+    padding: 20px;
+
+    /* Выравнивает блоки по центру */
+    margin: 10px auto;
+}
+
+.header{
+    background-color: #87cefa;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+input, label, textarea, select{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input, textarea, select{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hiddenelem{
+    display: none;
+}
+
+.boxes input, .boxes label{
+    width: auto;
+    display: inline;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    background-color: rgb(32, 160, 0);
+    width: 150px;
+    height: 50px;
+}
+
+
+.button button:hover{
+    background-color: rgb(87, 194, 83);
+}
+
+.button button:hover span{
+    font-weight: bold;
+}
